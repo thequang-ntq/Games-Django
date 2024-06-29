@@ -1,4 +1,4 @@
-# Games-Django
+# Games-Django and React
 
 <div style="display: flex;">
   <div style="flex: 1;">
@@ -8,7 +8,7 @@
   </div>
   
   <div style="flex: 2;">
-    <p> A website that contains Games using Django Python
+    <p> A website that contains Games using Django and React
 </p>
   </div>
 </div>
@@ -37,8 +37,8 @@
 
 ## I. Prerequisites
 
-- **SYSTEM:** 512MB RAM, At Least 1GB of Free Space in C Drive, And 100MB of Free Space in your App Folder.
-- **INSTALLED:** [Python](https://www.python.org/downloads/)(choose version according to your OS), [Django](https://docs.djangoproject.com/en/5.0/topics/install/#install-the-django-code) , [Git](https://git-scm.com/downloads)(v2.45.2)
+- **SYSTEM:** 1GB RAM, At Least 3GB of Free Space in C Drive, And 500MB of Free Space in your App Folder.
+- **INSTALLED:** [Python](https://www.python.org/downloads/)(choose version according to your OS), [Django](https://docs.djangoproject.com/en/5.0/topics/install/#install-the-django-code) , [Git](https://git-scm.com/downloads)(v2.45.2), [Nodejs](https://nodejs.org/en)
 - **You don't need Wifi / Internet Access to run this app**
 
 ## II. Setup
@@ -67,7 +67,7 @@ System check identified no issues (0 silenced).
 You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
 Run 'python manage.py migrate' to apply them.
 June 28, 2024 - 08:41:53
-Django version 5.0.6, using settings 'helloworld.settings'
+Django version 5.0.6, using settings 'Games.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
@@ -80,6 +80,7 @@ Quit the server with CTRL-BREAK.
 |--------------|---------------------|-----------------------------------------------------|
 | 28/06/2024   | Project setup       |                                                     |
 | 28/06/2024   | First Setup         | First upload about the app.                         |
+| 29/06/2024   | BE and FE           | Create BE and FE folder                             |
 
 ##### Future Work
 - [ ] Update app structure, optimize and clean code.
