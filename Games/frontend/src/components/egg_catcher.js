@@ -1,7 +1,9 @@
 import React, {Component} from 'react'
-class egg_catcher extends Component{
+class EggCatcher extends Component{
     render(){
-        return
+        return(
+            <div>Egg Catcher</div>
+        )
     }
 }
-export default egg_catcher
+export default EggCatcher

@@ -1,7 +1,9 @@
 import React, {Component} from 'react'
-class rock_paper_scissor extends Component{
+class RockPaperScissor extends Component{
     render(){
-        return
+        return(
+            <div>Rock Paper Scissor</div>
+        )
     }
 }
-export default rock_paper_scissor
+export default RockPaperScissor

@@ -81,6 +81,7 @@ Quit the server with CTRL-BREAK.
 | 28/06/2024   | Project setup       |                                                     |
 | 28/06/2024   | First Setup         | First upload about the app.                         |
 | 29/06/2024   | BE and FE           | Create BE and FE folder                             |
+| 30/06 - 11/07/2024   | Navigate    | Navigate to other pages                             |
 
 ##### Future Work
 - [ ] Update app structure, optimize and clean code.

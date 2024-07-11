@@ -1,7 +1,9 @@
 import React, {Component} from 'react'
-class dot_connect extends Component{
+class DotConnect extends Component{
     render(){
-        return
+        return(
+            <div>Dot Connect</div>
+        )
     }
 }
-export default dot_connect
+export default DotConnect
