@@ -49,6 +49,12 @@
   cursor: pointer;
 }
 
+.But:hover{
+  background-color: white;
+  border: black;
+  border: 2px solid black;
+}
+
 /* css for dot_connect components (https://github.com/theLoneCoder0/connect-four/blob/main/src/App.css)*/
 
 .dotBG{
@@ -99,9 +105,58 @@ h1 {
 
 #playerDisplay {
   font-family: sans-serif;
-  font-size: 15px;
-  color:white;
+  font-size: 20px;
+  text-transform: uppercase;
+  color:whitesmoke;
   text-align: center;
   margin-bottom: 50px;
 }
 /* css for dot_connect components (https://github.com/theLoneCoder0/connect-four/blob/main/src/App.css) */
+
+/* css for rock_paper_scissor components */
+.rpsContainer{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  color: whitesmoke;
+}
+
+.rpsMain{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: whitesmoke;
+}
+
+.rpsScore{
+  color: whitesmoke; 
+  font-family: Arial, sans-serif; 
+  font-size: 18px; 
+  font-weight: bold; 
+  text-align: center; 
+  text-shadow: 1px 1px 2px black; 
+  letter-spacing: 1px; 
+}
+
+.rpsBut{
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: darkcyan;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rpsBut:hover{
+  background-color: darkblue;
+  border: black;
+}
+/* css for rock_paper_scissor components */

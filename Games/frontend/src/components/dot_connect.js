@@ -3,8 +3,8 @@
 // https://github.com/theLoneCoder0/connect-four/tree/main 
 
 import React, { useState } from "react";
-import redToken from '../../src/red token.svg'
-import blackToken from '../../src/black token.svg'
+import redToken from '../../src/images/dot_connect/red token.svg'
+import blackToken from '../../src/images/dot_connect/black token.svg'
 
 function Slot ({ ch, y, x }){
     return (
