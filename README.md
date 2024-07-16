@@ -83,6 +83,7 @@ Quit the server with CTRL-BREAK.
 | 29/06/2024   | BE and FE           | Create BE and FE folder                             |
 | 30/06 - 11/07/2024   | Navigate    | Navigate to other pages                             |
 | 12/07 - 13/07/2024   | Dot Connect | Update Game Dot Connect                             |
+| 14/07 - 16/07/2024   | Rock Paper Scissor | Update Game Rock Paper Scissor               |
 
 ##### Future Work
 - [ ] Update app structure, optimize and clean code.
